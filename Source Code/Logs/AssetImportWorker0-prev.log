@@ -1,0 +1,1162 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/carte/OneDrive/Desktop/HorrorGameProject/awesomesauce/Horror Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58140
+Successfully changed project path to: C:/Users/carte/OneDrive/Desktop/HorrorGameProject/awesomesauce/Horror Game
+C:/Users/carte/OneDrive/Desktop/HorrorGameProject/awesomesauce/Horror Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7140] Host "[IP] 10.30.123.118 [Port] 0 [Flags] 2 [Guid] 2193475481 [EditorId] 2193475481 [Version] 1048832 [Id] WindowsEditor(7,CartersPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7140] Host "[IP] 10.30.123.118 [Port] 0 [Flags] 2 [Guid] 2193475481 [EditorId] 2193475481 [Version] 1048832 [Id] WindowsEditor(7,CartersPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carte/OneDrive/Desktop/HorrorGameProject/awesomesauce/Horror Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12242 MB
+    Driver:   31.0.24019.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009298 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 515ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.8 KB). Loaded Objects now: 3620.
+Memory consumption went from 144.4 MB to 144.4 MB.
+Total: 3.264100 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.755600 ms  DeleteObjects: 0.093500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110997.172060 seconds.
+  path: Assets/Materials/Materials/grid.mat
+  artifactKey: Guid(81505ff21522a3142a7b69756d76f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/grid.mat using Guid(81505ff21522a3142a7b69756d76f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cbfde80cab59a74c4d92c8abd72bed') in 0.118585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.831520 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm.mat
+  artifactKey: Guid(ad2591d1028f32d4a8bae13135f480f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm.mat using Guid(ad2591d1028f32d4a8bae13135f480f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b398ab6ed2ce9f4e174a0add3df52419') in 0.009811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)Glass.mat
+  artifactKey: Guid(a3a530523bec0cc41aed4f3a4d9da936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)Glass.mat using Guid(a3a530523bec0cc41aed4f3a4d9da936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8def2017597a9f4e41d3f8da327c31') in 0.107466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Storage2.fbx
+  artifactKey: Guid(efd1f08bfa5d6ec4b968e57fba68ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Storage2.fbx using Guid(efd1f08bfa5d6ec4b968e57fba68ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d5b926a8394172831c8121078ed421') in 0.131642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat
+  artifactKey: Guid(b8724dffa3024984c91406a3684d6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat using Guid(b8724dffa3024984c91406a3684d6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4087ebb39f167e1fc0b5bf22729593') in 0.210512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoomLamp.mat
+  artifactKey: Guid(d022ab63f2290b8489c9c29980037f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoomLamp.mat using Guid(d022ab63f2290b8489c9c29980037f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ac98626363f9896ab9d1f33d68e8b') in 0.066680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.Alt.mat
+  artifactKey: Guid(5e97ae7f00431f0418b4568a18658f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.Alt.mat using Guid(5e97ae7f00431f0418b4568a18658f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f8b270bf2b7d4079f7dc56d2196a7a') in 0.013057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_6.mat
+  artifactKey: Guid(8c66a80f569e19247ba32ddff06b2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_6.mat using Guid(8c66a80f569e19247ba32ddff06b2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb48f972ed4ca1e81fced0c03f1b6e3') in 0.180949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/GROUND3X3.mat
+  artifactKey: Guid(a167b62760e9623408a54d859d5dcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/GROUND3X3.mat using Guid(a167b62760e9623408a54d859d5dcc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb5f7cd4790fcabf35d83a84073741f') in 0.014359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Txt)GradientBlack.mat
+  artifactKey: Guid(ed0871f3e5d8e234ab142035bffb09b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Txt)GradientBlack.mat using Guid(ed0871f3e5d8e234ab142035bffb09b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565c4c52b4eba604890d7ac2e13a387c') in 0.018500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/GroundTilesBrokenColor.mat
+  artifactKey: Guid(1d8e2c5a7fedf5c41a94014270c537f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/GroundTilesBrokenColor.mat using Guid(1d8e2c5a7fedf5c41a94014270c537f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01fc9f5b1e152643c3c11d5e5ac31cd') in 0.015312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0659127829feef8d2bd025bba37eba9') in 0.093055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBlack.mat
+  artifactKey: Guid(7f64eac4bd640ef44ae0187dbfcb4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBlack.mat using Guid(7f64eac4bd640ef44ae0187dbfcb4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f7fdce9293c8835e50cab7e27e99d6') in 0.009167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725e01ce929408f44d8e694520dbfb0b') in 0.070420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientYellow.mat
+  artifactKey: Guid(e03c61940200c9b428ea54b9134ba0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientYellow.mat using Guid(e03c61940200c9b428ea54b9134ba0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4336b3a82373de55e8cf1ad33092a936') in 0.019576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)Skybox.mat
+  artifactKey: Guid(f5b880b2bccf7364cbc645f81894becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)Skybox.mat using Guid(f5b880b2bccf7364cbc645f81894becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be119a410a451ed6af5eac183cd32f95') in 0.011630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat
+  artifactKey: Guid(d9fdb3deaa6e8a4458cbf9158912ec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat using Guid(d9fdb3deaa6e8a4458cbf9158912ec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e21417fd73ec1b9129aa9bb327b07e') in 0.014033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat
+  artifactKey: Guid(35b3f8b0173dcad42a78d7ace2476948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat using Guid(35b3f8b0173dcad42a78d7ace2476948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367cd497dd3b91ac797008c01f0525a1') in 0.013646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkGrey.mat
+  artifactKey: Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkGrey.mat using Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0675b9785fc18850ffd1ca7fc4a1ccf6') in 0.018370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Foliage_2.mat
+  artifactKey: Guid(b131c7d427ad4cc4fae5e5656b96fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Foliage_2.mat using Guid(b131c7d427ad4cc4fae5e5656b96fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaf823f54f04ed9bd962cdb126564fe') in 0.226584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBrown.mat
+  artifactKey: Guid(c0999236ab32ad94fb08c06e6694fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBrown.mat using Guid(c0999236ab32ad94fb08c06e6694fa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0c81eecf0cfb1571698efa1841df4') in 0.023088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Foliage_1.mat
+  artifactKey: Guid(06bb39478e17b0d49809e040af6f6775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Foliage_1.mat using Guid(06bb39478e17b0d49809e040af6f6775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f77c8079717d6c5b6d0599e64c6a9') in 0.027882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/Black_Window.mat
+  artifactKey: Guid(353617353f25c10469685036b429283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/Black_Window.mat using Guid(353617353f25c10469685036b429283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412033b59a164bfa305aa381df3d0e2') in 0.010470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/BookBlue.fbx
+  artifactKey: Guid(77c514256d693e844b65d5771f60fdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/BookBlue.fbx using Guid(77c514256d693e844b65d5771f60fdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b8bd406031ff7c76ae1e5cf461803b') in 0.014000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_5.mat
+  artifactKey: Guid(62f76d89a9e005a4e889e1165e1ffc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_5.mat using Guid(62f76d89a9e005a4e889e1165e1ffc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedf4b37d0ad541e9c7a1f583995bdf9') in 0.012282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/ground17x8.mat
+  artifactKey: Guid(16af257eed6447e44aef8cf10b5534e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/ground17x8.mat using Guid(16af257eed6447e44aef8cf10b5534e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440c36218e3b60847246f4653f6236c') in 0.112599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/Bottle1Black.fbx
+  artifactKey: Guid(3a63b0b1934b09b4b9aaebb19e228d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/Bottle1Black.fbx using Guid(3a63b0b1934b09b4b9aaebb19e228d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf60a15b770bd07a5b41b7f54cf484f') in 0.017377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/WALL 12x1x1.mat
+  artifactKey: Guid(9abf1c760da9a6d469b0f87ec139704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/WALL 12x1x1.mat using Guid(9abf1c760da9a6d469b0f87ec139704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8f6890c2954db7ae84b70ffc18692') in 0.008627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/Textures/Wood/Materials/Wood_01-256x256 1.mat
+  artifactKey: Guid(43a1b502d41469441bdd9680502f512b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/Textures/Wood/Materials/Wood_01-256x256 1.mat using Guid(43a1b502d41469441bdd9680502f512b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fb15c0b752ba71c12126d3a4387d10') in 0.011973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/Textures/Wood/Materials/Wood_01-256x256.mat
+  artifactKey: Guid(f4f3af97f4ace8b4997e0aa25b76c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/Textures/Wood/Materials/Wood_01-256x256.mat using Guid(f4f3af97f4ace8b4997e0aa25b76c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e69c422048bcbc625ccb4d45450ce9') in 0.012804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/TVStand.fbx
+  artifactKey: Guid(03d128306848ffc48a08081f54f6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/TVStand.fbx using Guid(03d128306848ffc48a08081f54f6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab278da7fd8dea8d0d55503702700a31') in 0.013992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/BookOrange.fbx
+  artifactKey: Guid(fe504561693c37d43ba5303251aedb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/BookOrange.fbx using Guid(fe504561693c37d43ba5303251aedb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322b478ff3c4b42d70eb5df4fa208f6f') in 0.013571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Skybox.mat
+  artifactKey: Guid(1495d16f6dfb16d48a5d325eae676635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Skybox.mat using Guid(1495d16f6dfb16d48a5d325eae676635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f8490f453d57cfd57bb03a0c5f3f58') in 0.207283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/Table.fbx
+  artifactKey: Guid(8ef9da9f9972498419596d02c2f570ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/Table.fbx using Guid(8ef9da9f9972498419596d02c2f570ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252df20cb51ede474c0a18fe7ecac96b') in 0.013404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/Mug.fbx
+  artifactKey: Guid(38c928c4da6a2564fa142dd6ce356b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/Mug.fbx using Guid(38c928c4da6a2564fa142dd6ce356b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558c5a8768184e4f3e2484b13567e388') in 0.013769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Prefabs/Resources/Materials/256x256/Stone/Materials/Stone_07-256x256.mat
+  artifactKey: Guid(20abc52a3db70124db9f4928b21709e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Resources/Materials/256x256/Stone/Materials/Stone_07-256x256.mat using Guid(20abc52a3db70124db9f4928b21709e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979725a94d0553f5cde5e2301695f7be') in 0.013441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/BriefcaseGrey.fbx
+  artifactKey: Guid(12fd7b745f6bfd1409631096ed97192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/BriefcaseGrey.fbx using Guid(12fd7b745f6bfd1409631096ed97192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e95de15b21eb6f2bbaed60c50e5c1c9') in 0.014351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/WallExtras.mat
+  artifactKey: Guid(701c2e953d9a14548985000f9895ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/WallExtras.mat using Guid(701c2e953d9a14548985000f9895ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb48237c031280c080e26cc3d71272cd') in 0.009090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_3.mat
+  artifactKey: Guid(5f18a4cf46bedc748a839910203c93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_3.mat using Guid(5f18a4cf46bedc748a839910203c93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194c6bd68a323dc4217ea9fbb1382f6b') in 0.015939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/6x6.mat
+  artifactKey: Guid(e22e566dcc914974c9c695d6a0431f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/BrokenVector/LowPolyBrickHouses/Materials/6x6.mat using Guid(e22e566dcc914974c9c695d6a0431f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19620d632867bdd72d62570865360088') in 0.010689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientRed.mat
+  artifactKey: Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientRed.mat using Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e081e3890b32d6ceb61cea9437c9123') in 0.019554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientGreen.mat
+  artifactKey: Guid(e3681f2feac05f94888039c51ba9b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientGreen.mat using Guid(e3681f2feac05f94888039c51ba9b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f11d468e40991b835f7dfe4ccc0957') in 0.017411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/ToothbrushRed.fbx
+  artifactKey: Guid(e74d1924ac407a941876450ee6017fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/ToothbrushRed.fbx using Guid(e74d1924ac407a941876450ee6017fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8314a031ffcd772d981a3bd83f2cf3') in 0.013645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientOrange.mat
+  artifactKey: Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientOrange.mat using Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce79d444429c285e7a4a538a4d87354d') in 0.016493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.TableStuff.mat
+  artifactKey: Guid(c90b327075ede4a4fbe2bcf0af71ce64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.TableStuff.mat using Guid(c90b327075ede4a4fbe2bcf0af71ce64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7142f5026b952ebd36b5cdd41be0b34') in 0.010177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Prefabs/Resources/Materials/256x256/Tile/Materials/Tile_08-256x256.mat
+  artifactKey: Guid(bcac0330126e5f642be1bfee753797c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Resources/Materials/256x256/Tile/Materials/Tile_08-256x256.mat using Guid(bcac0330126e5f642be1bfee753797c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc02de9c672a62f308453c50dcfad582') in 0.016465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.mat
+  artifactKey: Guid(b4b2c3295b745e6419f063f5393aa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.mat using Guid(b4b2c3295b745e6419f063f5393aa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5395a1ddc221e271fc46c7b7ee1ce088') in 0.014235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Models/FastFoodCupRed.fbx
+  artifactKey: Guid(7a96eff1648e86445b9006ae68966fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Models/FastFoodCupRed.fbx using Guid(7a96eff1648e86445b9006ae68966fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc4aa19d35b8cdbdc24ac7be88e7908') in 0.014718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBlue.mat
+  artifactKey: Guid(35261150e5398c0439d6fd7481f62b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Materials/(Mat)GradientBlue.mat using Guid(35261150e5398c0439d6fd7481f62b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797c1876b336012df862bb9d9f441e9b') in 0.019187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.356057 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Sofa.fbx
+  artifactKey: Guid(7c11c43002c7a274894af728c82a6df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Sofa.fbx using Guid(7c11c43002c7a274894af728c82a6df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97749611411b89121f37c9e67cd41180') in 0.048168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Toilet.fbx
+  artifactKey: Guid(46684b3b7bc48e044ab454f422491fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Toilet.fbx using Guid(46684b3b7bc48e044ab454f422491fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e5f8c8b0eea4b3d2b677a63dc52982') in 0.024243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Church.dae
+  artifactKey: Guid(4c8429c8065b5b24cb9f304c87141511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Church.dae using Guid(4c8429c8065b5b24cb9f304c87141511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee328e948f269089c39883b93068e1a7') in 0.013321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Foliage2.dae
+  artifactKey: Guid(76ef5d7356ad88347b084f32b454ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Foliage2.dae using Guid(76ef5d7356ad88347b084f32b454ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf14103d4dd2b3741fd8cdaa710e398') in 0.009966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae
+  artifactKey: Guid(210b25fa5e334f74f87c05db00ca2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae using Guid(210b25fa5e334f74f87c05db00ca2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3188e72c879c30c5ca5ed3a3b05cc0') in 0.079255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Lamppost.dae
+  artifactKey: Guid(86dcc85c45c634a4f9fe429a83f1e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Lamppost.dae using Guid(86dcc85c45c634a4f9fe429a83f1e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca27ea30c561ef3ba939b2fea3be075a') in 0.011807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Lighthouse.dae
+  artifactKey: Guid(3f9c587848c1bb7448bc18b72dab545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Lighthouse.dae using Guid(3f9c587848c1bb7448bc18b72dab545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35be3f910cf6453fc58e4cdca16f65fa') in 0.014051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/RiverBridge.dae
+  artifactKey: Guid(268f4f0d65f1549488a4076f41b4e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/RiverBridge.dae using Guid(268f4f0d65f1549488a4076f41b4e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37aed168ed59d2165e3113d7a1cc5cb') in 0.011173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/RiverLand.dae
+  artifactKey: Guid(15961ec6d81beb84fb7cfd8e047a80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/RiverLand.dae using Guid(15961ec6d81beb84fb7cfd8e047a80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf3cfcdd9c8bee6daa97ed77d6cfba3') in 0.011997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae
+  artifactKey: Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae using Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fdb64ff139e1698305c55543e095d0') in 0.010818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Ship.dae
+  artifactKey: Guid(bf0eb6c971b2c0448bb9fc7061fc0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Ship.dae using Guid(bf0eb6c971b2c0448bb9fc7061fc0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9d85fc27ae9b2f202b5b94c9d921f') in 0.013775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/House-2-1.dae
+  artifactKey: Guid(3c4ca35a21faf304c915b95f6bc988e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/House-2-1.dae using Guid(3c4ca35a21faf304c915b95f6bc988e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27fba079df02d3d487f54cffb4466d') in 0.070975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Chair.dae
+  artifactKey: Guid(1c582774c98a4e049b5dcca19e619f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Chair.dae using Guid(1c582774c98a4e049b5dcca19e619f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1cd97f876afd2278317f5c2f9c5540') in 0.015957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Models/Bench.dae
+  artifactKey: Guid(7ec18ac651a9f22408e214d5e9f44651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Models/Bench.dae using Guid(7ec18ac651a9f22408e214d5e9f44651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2793978388425661aa0753581ded85f4') in 0.011896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.664554 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase4.fbx
+  artifactKey: Guid(1468bcf19ada3a841af67e85338d01cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase4.fbx using Guid(1468bcf19ada3a841af67e85338d01cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5034a92044cd6bf328cf9eb6254b3fae') in 0.012831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.021854 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Mirror1.fbx
+  artifactKey: Guid(a3cad6dca196e8042b8b1a7ae0650696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Mirror1.fbx using Guid(a3cad6dca196e8042b8b1a7ae0650696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6ec5396633d14e8f286fe92b35194c') in 0.032682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Mirror3.fbx
+  artifactKey: Guid(0c318aa75a947854e8cc8532c2d0418b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Mirror3.fbx using Guid(0c318aa75a947854e8cc8532c2d0418b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6061dfe33e70f556f7adf63118eac0e9') in 0.016976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)RoomLight.fbx
+  artifactKey: Guid(f779ad5ed13261240a5e95f8ec32037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)RoomLight.fbx using Guid(f779ad5ed13261240a5e95f8ec32037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40f388e1fcf976805ffca2968f6f2e8') in 0.020526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CoatHanger.fbx
+  artifactKey: Guid(e28d0d19ebbf7b748819ea9fb3fbb0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CoatHanger.fbx using Guid(e28d0d19ebbf7b748819ea9fb3fbb0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada52c0a36eb9da1b04c4b5c37af85da') in 0.018877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CoffeTable_smallPlant.fbx
+  artifactKey: Guid(d2974a25e2cf4e540a5a86ff784d0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CoffeTable_smallPlant.fbx using Guid(d2974a25e2cf4e540a5a86ff784d0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270aa0cbc4172ec4e7ce7428c43ad58a') in 0.021979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)ShowerFace.fbx
+  artifactKey: Guid(ff4b6334c18628a439fa303592ec63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)ShowerFace.fbx using Guid(ff4b6334c18628a439fa303592ec63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03afe13f8dce0ebabf0d5e8e018ed7df') in 0.016859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Container4.fbx
+  artifactKey: Guid(51bc86091dda4734fbff595d08e6f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Container4.fbx using Guid(51bc86091dda4734fbff595d08e6f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f1a5db7633596caa25804ee2c1654') in 0.033176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CornerSofa_pillowT.fbx
+  artifactKey: Guid(8b142c8a6dde2524c9f648078afec7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)CornerSofa_pillowT.fbx using Guid(8b142c8a6dde2524c9f648078afec7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd07a2df886e1065d40f9c9ae77e9e3') in 0.018188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)DiningChair.fbx
+  artifactKey: Guid(fea4f286e7a51e9498462a99c962559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)DiningChair.fbx using Guid(fea4f286e7a51e9498462a99c962559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc73305a562d94bdc83d37d0a98712d3') in 0.023899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)DoubleBed.fbx
+  artifactKey: Guid(227a980a170209f459e7e52b2bc42d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)DoubleBed.fbx using Guid(227a980a170209f459e7e52b2bc42d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f412d894174cc9142744725c7336905') in 0.123064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable.fbx
+  artifactKey: Guid(eb4f246e6032162419c1627cc4247555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable.fbx using Guid(eb4f246e6032162419c1627cc4247555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6bd30244353e099e11bdc7da959b86') in 0.012434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase2.fbx
+  artifactKey: Guid(c52be7ce5d9b3c74f9cc95a365aaf54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase2.fbx using Guid(c52be7ce5d9b3c74f9cc95a365aaf54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea27b72ad7194ddc5f16918f571be709') in 0.013002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Dresser.fbx
+  artifactKey: Guid(d2aaa38de911d1e4eb3e208fd26f541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Dresser.fbx using Guid(d2aaa38de911d1e4eb3e208fd26f541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942f0ee8f3dd6f894d5515014f79f1f9') in 0.042324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Desk.fbx
+  artifactKey: Guid(369c53baef81e9f41969e79c677af9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)Desk.fbx using Guid(369c53baef81e9f41969e79c677af9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db815eb561b87fc5afcf5679c8eb3199') in 0.019949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)KitchenIsland.fbx
+  artifactKey: Guid(d1a0377cf789263439d9ae63236a7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)KitchenIsland.fbx using Guid(d1a0377cf789263439d9ae63236a7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d284750654aee992e70b08546c19387') in 0.022837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase1.fbx
+  artifactKey: Guid(662024f52556fc1438d9e5a2b6171ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)LaunchTable_vase1.fbx using Guid(662024f52556fc1438d9e5a2b6171ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f15b5d893a80c67a5d75c091e7ea40') in 0.016761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Models/(Msh)SingleBed.fbx
+  artifactKey: Guid(8c9ff27c4343b5e41b0c944eb72ca800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Models/(Msh)SingleBed.fbx using Guid(8c9ff27c4343b5e41b0c944eb72ca800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6c64fa6ca0022781bdce32eb885e68') in 0.089898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 1.607300 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)BedsideLight.prefab
+  artifactKey: Guid(4f06099175b8866458a6cf669a7c20fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)BedsideLight.prefab using Guid(4f06099175b8866458a6cf669a7c20fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a6e8e7d51ffa5db0c1509754cdb1e0') in 0.012611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.004537 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Chair1.prefab
+  artifactKey: Guid(5d8b976fab3c41f4cb03fe912a97d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Chair1.prefab using Guid(5d8b976fab3c41f4cb03fe912a97d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b4dbfa1bb4345238630eaf4a6fe88a') in 0.008808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.009432 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CoffeTable.prefab
+  artifactKey: Guid(b235c805f008f6f4da469f7364846b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CoffeTable.prefab using Guid(b235c805f008f6f4da469f7364846b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235e1f6e5dba32259bc5aea686966839') in 0.008871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.003149 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Container2.prefab
+  artifactKey: Guid(dffdf6411c04f9146a126f1cd6000fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Container2.prefab using Guid(dffdf6411c04f9146a126f1cd6000fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705fe5ba2c80d36b128f4699ef5ec430') in 0.009158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.003864 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CornerLight.prefab
+  artifactKey: Guid(7232880492f88cd4d9624a501fc37aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CornerLight.prefab using Guid(7232880492f88cd4d9624a501fc37aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33403ea8b8fa11461c62f871e460d8a') in 0.012892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CornerSofa_pillowT.prefab
+  artifactKey: Guid(138d0852e3d6a79458e885febb13bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)CornerSofa_pillowT.prefab using Guid(138d0852e3d6a79458e885febb13bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31952d8340a5c124cf8d94743c6be84') in 0.012475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)DeskLight.prefab
+  artifactKey: Guid(e0a309163f5d1ef4e81367371dba0804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)DeskLight.prefab using Guid(e0a309163f5d1ef4e81367371dba0804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bd39e00cc5eb20d3ae25752c25a03c') in 0.013514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)DoubleBed.prefab
+  artifactKey: Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)DoubleBed.prefab using Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564108309303ed758ae9f18d4ece9bdf') in 0.027485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenIsland.prefab
+  artifactKey: Guid(255e79009c0081f4b90ea3205cc262c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenIsland.prefab using Guid(255e79009c0081f4b90ea3205cc262c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f33b577d39172aa09a29921623bc9') in 0.013537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable.prefab
+  artifactKey: Guid(7bb52cc09c8c76e43a75786dccaf3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable.prefab using Guid(7bb52cc09c8c76e43a75786dccaf3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027dcea484918fdcf30f6c3387f437ed') in 0.011449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase2.prefab
+  artifactKey: Guid(6c8c5607b1d615e4992b66dcbcf18c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase2.prefab using Guid(6c8c5607b1d615e4992b66dcbcf18c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1cbfd2905dcd0e65d3c0faf9fa56fa') in 0.010523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab
+  artifactKey: Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab using Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6416323f12f0e657813765464e8633c1') in 0.015816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror1.prefab
+  artifactKey: Guid(1054fb16f1ee4104ca711b702ac76af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror1.prefab using Guid(1054fb16f1ee4104ca711b702ac76af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40877b1d8ba0a547b731dbc734e8d981') in 0.012619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)MirrorLight.prefab
+  artifactKey: Guid(5eb4faf7729d059408358aadfe75945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)MirrorLight.prefab using Guid(5eb4faf7729d059408358aadfe75945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be84016574589725dddca686912ce0') in 0.011518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.001065 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Shelf1.prefab
+  artifactKey: Guid(706836d784292a74097d31519e9337fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Shelf1.prefab using Guid(706836d784292a74097d31519e9337fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c02d506c6cc6385ca468bc6173ccc4') in 0.011731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002014 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerTemperature.prefab
+  artifactKey: Guid(b1c089cb339c1904ab5110a40e4ec847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerTemperature.prefab using Guid(b1c089cb339c1904ab5110a40e4ec847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb879f17294864d8093e9af0bf766cc9') in 0.010304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.003013 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab
+  artifactKey: Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab using Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890ca5da8bcfb068e7bdc6024dadddd4') in 0.011267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab
+  artifactKey: Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab using Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4fdd0561480ce7809ac797baff3d7') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Toilet.prefab
+  artifactKey: Guid(5e1b8b1cf115f2940b01346027776031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)Toilet.prefab using Guid(5e1b8b1cf115f2940b01346027776031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c971931df1407de95250996c05e3ee') in 0.010202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)WaterGarden.prefab
+  artifactKey: Guid(2d96fb7ed786a5646a75d8a849edc8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/nappin/House Props Softpack/Prefabs/(Prb)WaterGarden.prefab using Guid(2d96fb7ed786a5646a75d8a849edc8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ade41378a2e27f438a83d09e473af3') in 0.014469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BookBlue.prefab
+  artifactKey: Guid(164e398b45d0b2e45b7937efbe8699ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BookBlue.prefab using Guid(164e398b45d0b2e45b7937efbe8699ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d5bbcf388a1326d3bde4373eda4eec') in 0.011125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BriefcaseGrey.prefab
+  artifactKey: Guid(71b64d729f2131044bccc1fb512fa4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BriefcaseGrey.prefab using Guid(71b64d729f2131044bccc1fb512fa4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda13bff0e5d4889ff2e9ba9613c978f') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BookRed.prefab
+  artifactKey: Guid(667648ba453719e4683cbbab5e2b30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/BookRed.prefab using Guid(667648ba453719e4683cbbab5e2b30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282ac0a99fbba73de2be55999e286f7e') in 0.010828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bookshelf.prefab
+  artifactKey: Guid(f925146e97b574945b581269a9251c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bookshelf.prefab using Guid(f925146e97b574945b581269a9251c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17585d7018b169fbed2c866441c8104') in 0.007876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bottle2.prefab
+  artifactKey: Guid(69279df67a555c54eb2fa4d2b058f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bottle2.prefab using Guid(69279df67a555c54eb2fa4d2b058f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5229507355f2dde6379bf5d22bc8f27') in 0.009937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bottle1.prefab
+  artifactKey: Guid(e1b446070dd325d4b91368103e801e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Bottle1.prefab using Guid(e1b446070dd325d4b91368103e801e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b9816f6183fd64de7e63a2b13baa49') in 0.009847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.526175 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab
+  artifactKey: Guid(24a5f7c212479624ba65a0ad94f34342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab using Guid(24a5f7c212479624ba65a0ad94f34342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf9e1a4e666c3b57b2327e8640b8a5b') in 0.009976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Cup.prefab
+  artifactKey: Guid(418aa78a681688846932c1adefcabaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Cup.prefab using Guid(418aa78a681688846932c1adefcabaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bd1f7ccbe709dc626223a0a3b9a462') in 0.009971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/endCap.prefab
+  artifactKey: Guid(40b1fede1792252428eb6961b3ee8b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/endCap.prefab using Guid(40b1fede1792252428eb6961b3ee8b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bce52991d3c4a83c9103f53ca321f7') in 0.046094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 1.104149 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab
+  artifactKey: Guid(57b13a00f04105d47af5e0707fffd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab using Guid(57b13a00f04105d47af5e0707fffd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1be548fd4f53357969dc14990e44cf') in 0.014879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/Hallway.prefab
+  artifactKey: Guid(af9d878a2d6847b44ae29ec8b6e26556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/Hallway.prefab using Guid(af9d878a2d6847b44ae29ec8b6e26556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da953e6350d3d89e8fa21f05dea3353e') in 0.121220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4126
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Plate_001.prefab
+  artifactKey: Guid(5f9e60bc4d7c78e49ad02ffca3b118bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Plate_001.prefab using Guid(5f9e60bc4d7c78e49ad02ffca3b118bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1303dbb309f928196b718bf07b8fb5a3') in 0.010049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallStairs.prefab
+  artifactKey: Guid(4777f8950f6f12940a096d9d73d45fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallStairs.prefab using Guid(4777f8950f6f12940a096d9d73d45fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b93e881551e677ceb922cb440d33ec') in 0.043800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/SmartPhoneWhite.prefab
+  artifactKey: Guid(ccf59782de3e9174994f5e5dcfec3ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/SmartPhoneWhite.prefab using Guid(ccf59782de3e9174994f5e5dcfec3ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e07de9ed9985eae2d583123cd217bb') in 0.009586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/Sprites/SpookyCamera(Clone).prefab
+  artifactKey: Guid(a326a505aaae6df439e54fa3cdac469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/Sprites/SpookyCamera(Clone).prefab using Guid(a326a505aaae6df439e54fa3cdac469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3772ed32456c78570574971f219cff2e') in 0.003105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/SetTable.prefab
+  artifactKey: Guid(89cc42ebfd0bcf948825f58b84328f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/SetTable.prefab using Guid(89cc42ebfd0bcf948825f58b84328f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b32451ab53c03408e9d8ed4df1f3d5c') in 0.017737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Table.prefab
+  artifactKey: Guid(8a46d37979b9c6e43aef7bd53494227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Table.prefab using Guid(8a46d37979b9c6e43aef7bd53494227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52300c42a5e0ac38cc58dfb2f243804') in 0.011656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Table.prefab
+  artifactKey: Guid(2d59a8765efbde941a0fff9e8280286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/Table.prefab using Guid(2d59a8765efbde941a0fff9e8280286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c970aa2b710b617889cd4093d7878ded') in 0.008223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.589630 seconds.
+  path: Assets/Resources/Prefabs/Tile.prefab
+  artifactKey: Guid(cd8454502690ceb4ea5523d594285076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Tile.prefab using Guid(cd8454502690ceb4ea5523d594285076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1562ef6ca67f7cdd13df34a9c091287') in 0.010188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Store assets/Kabungus/HouseholdItems/Prefabs/TVStand.prefab
+  artifactKey: Guid(995d572cf8cf5154497fdab8dc93f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Store assets/Kabungus/HouseholdItems/Prefabs/TVStand.prefab using Guid(995d572cf8cf5154497fdab8dc93f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7afe4be656c129aa312a079467d89') in 0.010154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Resources/Prefabs/GriffinPrefabs/Tile (20).prefab
+  artifactKey: Guid(c4bbcb0a9faa3e3499221977d217d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GriffinPrefabs/Tile (20).prefab using Guid(c4bbcb0a9faa3e3499221977d217d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38a1d451baa6d9ac0baaa85fc133d39') in 0.008078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
