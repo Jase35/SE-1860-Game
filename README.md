@@ -1,1 +1,5 @@
-Unfortunately, the source code to this project was not kept, but I still have the build, which I have included in this repository.
+Freaky Freddy Frights
+
+A horror game based on the confusing architecture of Iowa State's Friley hall.
+
+Made for SE 1860, Spring 2025.
